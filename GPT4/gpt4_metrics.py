@@ -4,7 +4,6 @@ from scipy.stats import pearsonr, spearmanr, kendalltau
 
 # Read datasets.
 df_human = pd.read_json('../dstc9_data.json')
-df_human = df_human.head(4)
 df_gpt4 = pd.read_json('./gpt4_dialogue_ratings.json')
 
 # Annotations.
@@ -26,7 +25,7 @@ for i in range(len(human_annotations)):
     dialogues.append({
         'dialogue_id': i,
         'human_annotations': human_annotations[i],
-        'predicted_annotations': int(predicted_annotations[i]),
+        'predicted_annotations': predicted_annotations[i],
     })
 
 metrics = {

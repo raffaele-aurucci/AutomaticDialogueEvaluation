@@ -2,6 +2,7 @@ import os
 from openai import OpenAI
 import pandas as pd
 import json
+from tqdm import tqdm
 
 from config import API_TOKEN
 
@@ -9,14 +10,14 @@ from config import API_TOKEN
 df = pd.read_json('../dstc9_data.json')
 
 # Process the desired output.
-def process_list(output_split: list, dialogue_id: int):
+def process_list(dialogue_id: int, output_split: list):
     return {
         "id_dialogue": dialogue_id,
-        "coherence": int(output_split[0].split('-')[1].strip()),
-        "engagingness": int(output_split[1].split('-')[1].strip()),
-        "diversity": int(output_split[2].split('-')[1].strip()),
-        "informativeness": int(output_split[3].split('-')[1].strip()),
-        "overall": int(output_split[4].split('-')[1].strip())
+        "coherence": float(output_split[0].split('-')[1].strip()),
+        "engagingness": float(output_split[1].split('-')[1].strip()),
+        "diversity": float(output_split[2].split('-')[1].strip()),
+        "informativeness": float(output_split[3].split('-')[1].strip()),
+        "overall": float(output_split[4].split('-')[1].strip())
     }
 
 
@@ -61,7 +62,7 @@ else:
     formatted_dialogues = []
 
 # Iterate over dataset DSTC9.
-for i in range(0, 1):
+for i in tqdm(range(0, len(df)), desc="Dialogue ratings progress"):
 
     # Read context and response to DSTC9 dataset.
     context = df['contexts'][i]
@@ -73,7 +74,7 @@ for i in range(0, 1):
 
     # Request to API.
     api_response = client.chat.completions.create(
-        model="gpt-4o-mini",
+        model="gpt-4",
         messages=[{"role": "user", "content": dialogue}],
         temperature=0.7,
         top_p=0.95,
@@ -85,11 +86,11 @@ for i in range(0, 1):
 
     # Process output.
     output_split = output.split('\n')
-    formatted_data = process_list(output_split, i)
+    formatted_data = process_list(dialogue_id=i, output_split=output_split)
     formatted_dialogues.append(formatted_data)
 
     with open(file_path, 'w') as json_file:
         json.dump({"dialogues": formatted_dialogues}, json_file, indent=4)
 
-    print(f"Dialogue {i} ratings write successfully!")
+    # print(f"Dialogue {i} ratings write successfully!")
 
