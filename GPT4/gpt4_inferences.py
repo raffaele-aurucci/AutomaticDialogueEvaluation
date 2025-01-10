@@ -47,15 +47,21 @@ client = OpenAI(api_key=API_TOKEN, base_url="https://api.gpt4-all.xyz/v1")
 file_path = 'gpt4_dialogue_ratings.json'
 
 # Check if file exists.
-if not os.path.exists(file_path):
+if os.path.exists(file_path):
+    # Empty file.
+    if os.stat(file_path).st_size == 0:
+        formatted_dialogues = []
+    else:
+        with open(file_path, 'r') as json_file:
+            data = json.load(json_file)
+            formatted_dialogues = data.get('dialogues', [])
+else:
     with open(file_path, 'w') as json_file:
-        json.dump([], json_file)
-
-# Read json file as list of dicts.
-formatted_dialogues = pd.read_json(file_path).to_dict(orient='records')
+        json.dump({"dialogues": []}, json_file)
+    formatted_dialogues = []
 
 # Iterate over dataset DSTC9.
-for i in range(0, 2):
+for i in range(0, 1):
 
     # Read context and response to DSTC9 dataset.
     context = df['contexts'][i]
@@ -69,6 +75,8 @@ for i in range(0, 2):
     api_response = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[{"role": "user", "content": dialogue}],
+        temperature=0.7,
+        top_p=0.95,
         stream=False,
     )
 
@@ -81,7 +89,7 @@ for i in range(0, 2):
     formatted_dialogues.append(formatted_data)
 
     with open(file_path, 'w') as json_file:
-        json.dump(formatted_dialogues, json_file, indent=4)
+        json.dump({"dialogues": formatted_dialogues}, json_file, indent=4)
 
     print(f"Dialogue {i} ratings write successfully!")
 

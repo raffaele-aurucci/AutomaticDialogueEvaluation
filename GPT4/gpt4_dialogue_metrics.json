@@ -1,0 +1,29 @@
+{
+    "dialogues": [
+        {
+            "dialogue_id": 0,
+            "human_annotations": 4.333333333333333,
+            "predicted_annotations": 2
+        },
+        {
+            "dialogue_id": 1,
+            "human_annotations": 4.0,
+            "predicted_annotations": 3
+        },
+        {
+            "dialogue_id": 2,
+            "human_annotations": 4.0,
+            "predicted_annotations": 4
+        },
+        {
+            "dialogue_id": 3,
+            "human_annotations": 4.0,
+            "predicted_annotations": 4
+        }
+    ],
+    "metrics": {
+        "pearson_correlation": -0.8703882797784892,
+        "spearman_correlation": -0.8164965809277261,
+        "kendall_tau_correlation": -0.7745966692414834
+    }
+}
