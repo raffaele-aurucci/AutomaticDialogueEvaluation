@@ -4,7 +4,7 @@ import pandas as pd
 import json
 from tqdm import tqdm
 
-from config import API_TOKEN
+from config import API_TOKEN_GPT
 
 # Load DSTC9 dataset.
 df = pd.read_json('../dstc9_data.json')
@@ -42,7 +42,7 @@ def create_dialogue(context_response: list):
     return dialogue
 
 
-client = OpenAI(api_key=API_TOKEN, base_url="https://api.gpt4-all.xyz/v1")
+client = OpenAI(api_key=API_TOKEN_GPT, base_url="https://api.gpt4-all.xyz/v1")
 
 # File to save dialogue ratings.
 file_path = 'gpt4_dialogue_ratings.json'
