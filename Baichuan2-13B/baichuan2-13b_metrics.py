@@ -24,8 +24,8 @@ dialogues = []
 for i in range(len(human_annotations)):
     dialogues.append({
         'dialogue_id': i,
-        'human_annotations': human_annotations[i],
-        'predicted_annotations': predicted_annotations[i],
+        'human_annotation': human_annotations[i],
+        'predicted_annotation': predicted_annotations[i],
     })
 
 metrics = {
