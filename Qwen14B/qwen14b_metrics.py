@@ -4,11 +4,11 @@ from scipy.stats import pearsonr, spearmanr, kendalltau
 
 # Read datasets.
 df_human = pd.read_json('../dstc9_data.json')
-df_qwen = pd.read_json('./qwen14b_dialogue_ratings.json')
+df_qwen = pd.read_json('./qwen14b_dialogue_ratings_mean.json')
 
 # Annotations.
 human_annotations = df_human['scores']
-predicted_annotations = [dialogue['yes'] for dialogue in df_qwen['dialogues']]
+predicted_annotations = [dialogue['mean_yes'] for dialogue in df_qwen['dialogues']]
 
 # Metrics.
 pearson_correlation, _ = pearsonr(human_annotations, predicted_annotations)
