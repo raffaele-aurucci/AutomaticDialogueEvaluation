@@ -56,7 +56,7 @@ def make_inferences():
         convai2_data = json.load(file)
 
     # File to save dialogue ratings.
-    file_path = 'chatglm3-6b-chat_dialogue_ratings.json'
+    file_path = 'chatglm3-6b_dialogue_ratings.json'
 
     # Check if file exists.
     if os.path.exists(file_path):
