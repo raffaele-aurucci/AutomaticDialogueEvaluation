@@ -1,0 +1,1509 @@
+{
+    "dialogues": [
+        {
+            "dialogue_id": 0,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.8770049817402211
+        },
+        {
+            "dialogue_id": 1,
+            "human_annotation": 2.0,
+            "predicted_annotation": 0.9397942898697421
+        },
+        {
+            "dialogue_id": 2,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.749189281262429
+        },
+        {
+            "dialogue_id": 3,
+            "human_annotation": 2.0,
+            "predicted_annotation": 0.7348073255648021
+        },
+        {
+            "dialogue_id": 4,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.9071356686702471
+        },
+        {
+            "dialogue_id": 5,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.9337457903319161
+        },
+        {
+            "dialogue_id": 6,
+            "human_annotation": 1.3333333333333333,
+            "predicted_annotation": 0.840309724421568
+        },
+        {
+            "dialogue_id": 7,
+            "human_annotation": 2.6666666666666665,
+            "predicted_annotation": 0.9350184801866841
+        },
+        {
+            "dialogue_id": 8,
+            "human_annotation": 2.3333333333333335,
+            "predicted_annotation": 0.6965312272314611
+        },
+        {
+            "dialogue_id": 9,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.957462836075704
+        },
+        {
+            "dialogue_id": 10,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.8185569075608571
+        },
+        {
+            "dialogue_id": 11,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.812711465676573
+        },
+        {
+            "dialogue_id": 12,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.7165793893119381
+        },
+        {
+            "dialogue_id": 13,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.619888432754064
+        },
+        {
+            "dialogue_id": 14,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.9280308264589431
+        },
+        {
+            "dialogue_id": 15,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.798110186172249
+        },
+        {
+            "dialogue_id": 16,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.8936173667702251
+        },
+        {
+            "dialogue_id": 17,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.926102081626429
+        },
+        {
+            "dialogue_id": 18,
+            "human_annotation": 2.0,
+            "predicted_annotation": 0.500647306080627
+        },
+        {
+            "dialogue_id": 19,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.8642378503131851
+        },
+        {
+            "dialogue_id": 20,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.9420576851005941
+        },
+        {
+            "dialogue_id": 21,
+            "human_annotation": 2.3333333333333335,
+            "predicted_annotation": 0.6880850813745091
+        },
+        {
+            "dialogue_id": 22,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.887992254245184
+        },
+        {
+            "dialogue_id": 23,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.812879140531309
+        },
+        {
+            "dialogue_id": 24,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.9265854211501291
+        },
+        {
+            "dialogue_id": 25,
+            "human_annotation": 2.3333333333333335,
+            "predicted_annotation": 0.8403219454528981
+        },
+        {
+            "dialogue_id": 26,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.941626723826092
+        },
+        {
+            "dialogue_id": 27,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.947081163120952
+        },
+        {
+            "dialogue_id": 28,
+            "human_annotation": 2.3333333333333335,
+            "predicted_annotation": 0.9140896624834051
+        },
+        {
+            "dialogue_id": 29,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.9145262467900961
+        },
+        {
+            "dialogue_id": 30,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.511523589962378
+        },
+        {
+            "dialogue_id": 31,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.5242058212212051
+        },
+        {
+            "dialogue_id": 32,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.738212446623262
+        },
+        {
+            "dialogue_id": 33,
+            "human_annotation": 1.6666666666666667,
+            "predicted_annotation": 0.544860048167061
+        },
+        {
+            "dialogue_id": 34,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.839047154592892
+        },
+        {
+            "dialogue_id": 35,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.829481411600538
+        },
+        {
+            "dialogue_id": 36,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.8087218960327971
+        },
+        {
+            "dialogue_id": 37,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.9066886692837651
+        },
+        {
+            "dialogue_id": 38,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.8466390138881801
+        },
+        {
+            "dialogue_id": 39,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.9211971547299681
+        },
+        {
+            "dialogue_id": 40,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.9339753672577291
+        },
+        {
+            "dialogue_id": 41,
+            "human_annotation": 2.3333333333333335,
+            "predicted_annotation": 0.9058653073943471
+        },
+        {
+            "dialogue_id": 42,
+            "human_annotation": 2.3333333333333335,
+            "predicted_annotation": 0.8837330249251151
+        },
+        {
+            "dialogue_id": 43,
+            "human_annotation": 1.3333333333333333,
+            "predicted_annotation": 0.8233334622122551
+        },
+        {
+            "dialogue_id": 44,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.9367339090645711
+        },
+        {
+            "dialogue_id": 45,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.769525375774568
+        },
+        {
+            "dialogue_id": 46,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.8329434237682891
+        },
+        {
+            "dialogue_id": 47,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.7685887027162791
+        },
+        {
+            "dialogue_id": 48,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.6802807042411011
+        },
+        {
+            "dialogue_id": 49,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.809559611208812
+        },
+        {
+            "dialogue_id": 50,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.9554504902978481
+        },
+        {
+            "dialogue_id": 51,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.911320040184542
+        },
+        {
+            "dialogue_id": 52,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.9376570629235471
+        },
+        {
+            "dialogue_id": 53,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.8224281126129951
+        },
+        {
+            "dialogue_id": 54,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.9635619582896391
+        },
+        {
+            "dialogue_id": 55,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.9328872809881491
+        },
+        {
+            "dialogue_id": 56,
+            "human_annotation": 1.6666666666666667,
+            "predicted_annotation": 0.8390777400782651
+        },
+        {
+            "dialogue_id": 57,
+            "human_annotation": 1.6666666666666667,
+            "predicted_annotation": 0.7622371083139351
+        },
+        {
+            "dialogue_id": 58,
+            "human_annotation": 2.6666666666666665,
+            "predicted_annotation": 0.916467538312519
+        },
+        {
+            "dialogue_id": 59,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.967191154237463
+        },
+        {
+            "dialogue_id": 60,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.9445683587729371
+        },
+        {
+            "dialogue_id": 61,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.881186282159179
+        },
+        {
+            "dialogue_id": 62,
+            "human_annotation": 2.3333333333333335,
+            "predicted_annotation": 0.8503233899089261
+        },
+        {
+            "dialogue_id": 63,
+            "human_annotation": 2.3333333333333335,
+            "predicted_annotation": 0.8138725061405341
+        },
+        {
+            "dialogue_id": 64,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.9384625200759421
+        },
+        {
+            "dialogue_id": 65,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.8569861326144651
+        },
+        {
+            "dialogue_id": 66,
+            "human_annotation": 2.3333333333333335,
+            "predicted_annotation": 0.8767829700528691
+        },
+        {
+            "dialogue_id": 67,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.8926835462053371
+        },
+        {
+            "dialogue_id": 68,
+            "human_annotation": 2.6666666666666665,
+            "predicted_annotation": 0.8706690205317721
+        },
+        {
+            "dialogue_id": 69,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.9201546693558261
+        },
+        {
+            "dialogue_id": 70,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.7843614703753821
+        },
+        {
+            "dialogue_id": 71,
+            "human_annotation": 1.3333333333333333,
+            "predicted_annotation": 0.74417114855067
+        },
+        {
+            "dialogue_id": 72,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.6344225614767991
+        },
+        {
+            "dialogue_id": 73,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.610282233347868
+        },
+        {
+            "dialogue_id": 74,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.8243095692984731
+        },
+        {
+            "dialogue_id": 75,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.9567883746162511
+        },
+        {
+            "dialogue_id": 76,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.8933642926978621
+        },
+        {
+            "dialogue_id": 77,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.8507674517640611
+        },
+        {
+            "dialogue_id": 78,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.9078552713740871
+        },
+        {
+            "dialogue_id": 79,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.9684401501238371
+        },
+        {
+            "dialogue_id": 80,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.9150891763340411
+        },
+        {
+            "dialogue_id": 81,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.8028402479788741
+        },
+        {
+            "dialogue_id": 82,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.8838714118717581
+        },
+        {
+            "dialogue_id": 83,
+            "human_annotation": 1.6666666666666667,
+            "predicted_annotation": 0.6373244639981811
+        },
+        {
+            "dialogue_id": 84,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.899521728664033
+        },
+        {
+            "dialogue_id": 85,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.7440758174017971
+        },
+        {
+            "dialogue_id": 86,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.841662782232365
+        },
+        {
+            "dialogue_id": 87,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.7629979569567421
+        },
+        {
+            "dialogue_id": 88,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.712242348192562
+        },
+        {
+            "dialogue_id": 89,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.8463330369016691
+        },
+        {
+            "dialogue_id": 90,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.867152861562934
+        },
+        {
+            "dialogue_id": 91,
+            "human_annotation": 2.6666666666666665,
+            "predicted_annotation": 0.5501190823462231
+        },
+        {
+            "dialogue_id": 92,
+            "human_annotation": 2.0,
+            "predicted_annotation": 0.7193616781316161
+        },
+        {
+            "dialogue_id": 93,
+            "human_annotation": 2.6666666666666665,
+            "predicted_annotation": 0.735236018491708
+        },
+        {
+            "dialogue_id": 94,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.8292996383957101
+        },
+        {
+            "dialogue_id": 95,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.655026410666784
+        },
+        {
+            "dialogue_id": 96,
+            "human_annotation": 2.0,
+            "predicted_annotation": 0.7596393778879551
+        },
+        {
+            "dialogue_id": 97,
+            "human_annotation": 2.6666666666666665,
+            "predicted_annotation": 0.647284543821771
+        },
+        {
+            "dialogue_id": 98,
+            "human_annotation": 2.6666666666666665,
+            "predicted_annotation": 0.7204840917836061
+        },
+        {
+            "dialogue_id": 99,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.7015773216423531
+        },
+        {
+            "dialogue_id": 100,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.7701440986905921
+        },
+        {
+            "dialogue_id": 101,
+            "human_annotation": 2.6666666666666665,
+            "predicted_annotation": 0.846721897317905
+        },
+        {
+            "dialogue_id": 102,
+            "human_annotation": 2.3333333333333335,
+            "predicted_annotation": 0.6881499616882021
+        },
+        {
+            "dialogue_id": 103,
+            "human_annotation": 2.0,
+            "predicted_annotation": 0.6737788768927331
+        },
+        {
+            "dialogue_id": 104,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.828953412700384
+        },
+        {
+            "dialogue_id": 105,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.7288643199250711
+        },
+        {
+            "dialogue_id": 106,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.70700600209704
+        },
+        {
+            "dialogue_id": 107,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.8752845686001121
+        },
+        {
+            "dialogue_id": 108,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.716865955359395
+        },
+        {
+            "dialogue_id": 109,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.819924949504207
+        },
+        {
+            "dialogue_id": 110,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.8175707068791621
+        },
+        {
+            "dialogue_id": 111,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.904626182771423
+        },
+        {
+            "dialogue_id": 112,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.829101834384097
+        },
+        {
+            "dialogue_id": 113,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.8508003826864631
+        },
+        {
+            "dialogue_id": 114,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.8976196385722031
+        },
+        {
+            "dialogue_id": 115,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.673966876705506
+        },
+        {
+            "dialogue_id": 116,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.7662298464714331
+        },
+        {
+            "dialogue_id": 117,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.723019074485014
+        },
+        {
+            "dialogue_id": 118,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.7296909873437141
+        },
+        {
+            "dialogue_id": 119,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.36724789716455203
+        },
+        {
+            "dialogue_id": 120,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.889090249231497
+        },
+        {
+            "dialogue_id": 121,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.8194018893294861
+        },
+        {
+            "dialogue_id": 122,
+            "human_annotation": 2.6666666666666665,
+            "predicted_annotation": 0.767895587517025
+        },
+        {
+            "dialogue_id": 123,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.7612325991204331
+        },
+        {
+            "dialogue_id": 124,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.912297042611898
+        },
+        {
+            "dialogue_id": 125,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.9093731902731671
+        },
+        {
+            "dialogue_id": 126,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.8670117901580671
+        },
+        {
+            "dialogue_id": 127,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.9070710567140361
+        },
+        {
+            "dialogue_id": 128,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.9217000220099951
+        },
+        {
+            "dialogue_id": 129,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.9183218690253201
+        },
+        {
+            "dialogue_id": 130,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.847375874412275
+        },
+        {
+            "dialogue_id": 131,
+            "human_annotation": 2.6666666666666665,
+            "predicted_annotation": 0.595737760815896
+        },
+        {
+            "dialogue_id": 132,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.9401817903285431
+        },
+        {
+            "dialogue_id": 133,
+            "human_annotation": 2.6666666666666665,
+            "predicted_annotation": 0.602800046565631
+        },
+        {
+            "dialogue_id": 134,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.9691203938030301
+        },
+        {
+            "dialogue_id": 135,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.6058935535196021
+        },
+        {
+            "dialogue_id": 136,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.730341523848539
+        },
+        {
+            "dialogue_id": 137,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.7524885505259381
+        },
+        {
+            "dialogue_id": 138,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.758868187957754
+        },
+        {
+            "dialogue_id": 139,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.624772545855489
+        },
+        {
+            "dialogue_id": 140,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.638759143724662
+        },
+        {
+            "dialogue_id": 141,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.894450826619943
+        },
+        {
+            "dialogue_id": 142,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.8714953152563991
+        },
+        {
+            "dialogue_id": 143,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.7639618316772311
+        },
+        {
+            "dialogue_id": 144,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.9095963508357511
+        },
+        {
+            "dialogue_id": 145,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.624657175829593
+        },
+        {
+            "dialogue_id": 146,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.7565761213349881
+        },
+        {
+            "dialogue_id": 147,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.681786367739425
+        },
+        {
+            "dialogue_id": 148,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.728795618534067
+        },
+        {
+            "dialogue_id": 149,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.657130285549789
+        },
+        {
+            "dialogue_id": 150,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.8328175839099671
+        },
+        {
+            "dialogue_id": 151,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.7504882944022511
+        },
+        {
+            "dialogue_id": 152,
+            "human_annotation": 2.6666666666666665,
+            "predicted_annotation": 0.644493478978701
+        },
+        {
+            "dialogue_id": 153,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.791322924171942
+        },
+        {
+            "dialogue_id": 154,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.8602285133869061
+        },
+        {
+            "dialogue_id": 155,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.9246356083873861
+        },
+        {
+            "dialogue_id": 156,
+            "human_annotation": 2.3333333333333335,
+            "predicted_annotation": 0.8485597793464381
+        },
+        {
+            "dialogue_id": 157,
+            "human_annotation": 1.3333333333333333,
+            "predicted_annotation": 0.6099256136826671
+        },
+        {
+            "dialogue_id": 158,
+            "human_annotation": 2.0,
+            "predicted_annotation": 0.7756036461375461
+        },
+        {
+            "dialogue_id": 159,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.9475437074459491
+        },
+        {
+            "dialogue_id": 160,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.924530939294933
+        },
+        {
+            "dialogue_id": 161,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.8986169595001581
+        },
+        {
+            "dialogue_id": 162,
+            "human_annotation": 2.6666666666666665,
+            "predicted_annotation": 0.910098048235025
+        },
+        {
+            "dialogue_id": 163,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.8838870240552981
+        },
+        {
+            "dialogue_id": 164,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.9368632966830891
+        },
+        {
+            "dialogue_id": 165,
+            "human_annotation": 2.6666666666666665,
+            "predicted_annotation": 0.9051992851181111
+        },
+        {
+            "dialogue_id": 166,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.9182407149494201
+        },
+        {
+            "dialogue_id": 167,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.8271428244746221
+        },
+        {
+            "dialogue_id": 168,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.8589075332840741
+        },
+        {
+            "dialogue_id": 169,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.901543398179339
+        },
+        {
+            "dialogue_id": 170,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.809823685190834
+        },
+        {
+            "dialogue_id": 171,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.803322104179859
+        },
+        {
+            "dialogue_id": 172,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.863048457126047
+        },
+        {
+            "dialogue_id": 173,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.7194833398675361
+        },
+        {
+            "dialogue_id": 174,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.783689692519689
+        },
+        {
+            "dialogue_id": 175,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.8849016998127011
+        },
+        {
+            "dialogue_id": 176,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.8296194267113811
+        },
+        {
+            "dialogue_id": 177,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.7879214748368181
+        },
+        {
+            "dialogue_id": 178,
+            "human_annotation": 2.6666666666666665,
+            "predicted_annotation": 0.728347802541607
+        },
+        {
+            "dialogue_id": 179,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.901761370611826
+        },
+        {
+            "dialogue_id": 180,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.9352387835096151
+        },
+        {
+            "dialogue_id": 181,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.893618318711177
+        },
+        {
+            "dialogue_id": 182,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.8173615218305581
+        },
+        {
+            "dialogue_id": 183,
+            "human_annotation": 2.6666666666666665,
+            "predicted_annotation": 0.8259220626507401
+        },
+        {
+            "dialogue_id": 184,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.9206627105897981
+        },
+        {
+            "dialogue_id": 185,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.742324774360404
+        },
+        {
+            "dialogue_id": 186,
+            "human_annotation": 2.0,
+            "predicted_annotation": 0.8520946233826291
+        },
+        {
+            "dialogue_id": 187,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.5288428173217721
+        },
+        {
+            "dialogue_id": 188,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.691292446454277
+        },
+        {
+            "dialogue_id": 189,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.8614937217387321
+        },
+        {
+            "dialogue_id": 190,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.9471858355407591
+        },
+        {
+            "dialogue_id": 191,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.946464977382037
+        },
+        {
+            "dialogue_id": 192,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.9594540678831741
+        },
+        {
+            "dialogue_id": 193,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.6797137583961921
+        },
+        {
+            "dialogue_id": 194,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.9607944323600611
+        },
+        {
+            "dialogue_id": 195,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.695484699933803
+        },
+        {
+            "dialogue_id": 196,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.546760367411657
+        },
+        {
+            "dialogue_id": 197,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.680500325281301
+        },
+        {
+            "dialogue_id": 198,
+            "human_annotation": 2.0,
+            "predicted_annotation": 0.47494080932917404
+        },
+        {
+            "dialogue_id": 199,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.7783184225093701
+        },
+        {
+            "dialogue_id": 200,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.7958016429190901
+        },
+        {
+            "dialogue_id": 201,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.792241749805871
+        },
+        {
+            "dialogue_id": 202,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.627068481597821
+        },
+        {
+            "dialogue_id": 203,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.7177489446371771
+        },
+        {
+            "dialogue_id": 204,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.8477036047659631
+        },
+        {
+            "dialogue_id": 205,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.732403097495624
+        },
+        {
+            "dialogue_id": 206,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.7055281138333861
+        },
+        {
+            "dialogue_id": 207,
+            "human_annotation": 1.6666666666666667,
+            "predicted_annotation": 0.6646901785034991
+        },
+        {
+            "dialogue_id": 208,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.7019116570333711
+        },
+        {
+            "dialogue_id": 209,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.7049508195003611
+        },
+        {
+            "dialogue_id": 210,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.804545573099066
+        },
+        {
+            "dialogue_id": 211,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.81823494766626
+        },
+        {
+            "dialogue_id": 212,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.79521521877868
+        },
+        {
+            "dialogue_id": 213,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.6548227359105201
+        },
+        {
+            "dialogue_id": 214,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.8375864300224121
+        },
+        {
+            "dialogue_id": 215,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.8004329981294821
+        },
+        {
+            "dialogue_id": 216,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.8690767716923831
+        },
+        {
+            "dialogue_id": 217,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.8216441055659731
+        },
+        {
+            "dialogue_id": 218,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.6121163160073331
+        },
+        {
+            "dialogue_id": 219,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.9238235755405061
+        },
+        {
+            "dialogue_id": 220,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.812953327499022
+        },
+        {
+            "dialogue_id": 221,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.671549874539582
+        },
+        {
+            "dialogue_id": 222,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.714326103508734
+        },
+        {
+            "dialogue_id": 223,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.7532497589225741
+        },
+        {
+            "dialogue_id": 224,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.8576365786146041
+        },
+        {
+            "dialogue_id": 225,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.934280573656967
+        },
+        {
+            "dialogue_id": 226,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.8991097423855481
+        },
+        {
+            "dialogue_id": 227,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.8821301680932121
+        },
+        {
+            "dialogue_id": 228,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.744597129835149
+        },
+        {
+            "dialogue_id": 229,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.932341319229233
+        },
+        {
+            "dialogue_id": 230,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.89305450296649
+        },
+        {
+            "dialogue_id": 231,
+            "human_annotation": 2.6666666666666665,
+            "predicted_annotation": 0.846434402918206
+        },
+        {
+            "dialogue_id": 232,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.8907040466721271
+        },
+        {
+            "dialogue_id": 233,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.795367219420488
+        },
+        {
+            "dialogue_id": 234,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.6555027225163841
+        },
+        {
+            "dialogue_id": 235,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.942675885942814
+        },
+        {
+            "dialogue_id": 236,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.6151444135938281
+        },
+        {
+            "dialogue_id": 237,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.9072439879440751
+        },
+        {
+            "dialogue_id": 238,
+            "human_annotation": 1.6666666666666667,
+            "predicted_annotation": 0.7336063797941851
+        },
+        {
+            "dialogue_id": 239,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.922562095217725
+        },
+        {
+            "dialogue_id": 240,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.855295752686672
+        },
+        {
+            "dialogue_id": 241,
+            "human_annotation": 2.6666666666666665,
+            "predicted_annotation": 0.922487014818917
+        },
+        {
+            "dialogue_id": 242,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.773759567599493
+        },
+        {
+            "dialogue_id": 243,
+            "human_annotation": 2.3333333333333335,
+            "predicted_annotation": 0.822158595132625
+        },
+        {
+            "dialogue_id": 244,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.8373673208993341
+        },
+        {
+            "dialogue_id": 245,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.821336924066391
+        },
+        {
+            "dialogue_id": 246,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.7535322819809801
+        },
+        {
+            "dialogue_id": 247,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.857081365980324
+        },
+        {
+            "dialogue_id": 248,
+            "human_annotation": 2.0,
+            "predicted_annotation": 0.7487442448489191
+        },
+        {
+            "dialogue_id": 249,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.8520923397394551
+        },
+        {
+            "dialogue_id": 250,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.735844860125613
+        },
+        {
+            "dialogue_id": 251,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.6873785963944301
+        },
+        {
+            "dialogue_id": 252,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.7546230257833381
+        },
+        {
+            "dialogue_id": 253,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.7269216943304221
+        },
+        {
+            "dialogue_id": 254,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.7378569564394261
+        },
+        {
+            "dialogue_id": 255,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.8813256973965261
+        },
+        {
+            "dialogue_id": 256,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.9527839121292381
+        },
+        {
+            "dialogue_id": 257,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.898806600132893
+        },
+        {
+            "dialogue_id": 258,
+            "human_annotation": 2.6666666666666665,
+            "predicted_annotation": 0.8779201562299701
+        },
+        {
+            "dialogue_id": 259,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.924610783162345
+        },
+        {
+            "dialogue_id": 260,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.8827429785306811
+        },
+        {
+            "dialogue_id": 261,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.897018570886242
+        },
+        {
+            "dialogue_id": 262,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.7530146445133561
+        },
+        {
+            "dialogue_id": 263,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.823028980314746
+        },
+        {
+            "dialogue_id": 264,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.9085783363619611
+        },
+        {
+            "dialogue_id": 265,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.8707489498570901
+        },
+        {
+            "dialogue_id": 266,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.806948314512484
+        },
+        {
+            "dialogue_id": 267,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.6294358934181491
+        },
+        {
+            "dialogue_id": 268,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.713830561229273
+        },
+        {
+            "dialogue_id": 269,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.8758362619625971
+        },
+        {
+            "dialogue_id": 270,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.8781085597464201
+        },
+        {
+            "dialogue_id": 271,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.8325451363339631
+        },
+        {
+            "dialogue_id": 272,
+            "human_annotation": 2.3333333333333335,
+            "predicted_annotation": 0.805248036059507
+        },
+        {
+            "dialogue_id": 273,
+            "human_annotation": 2.3333333333333335,
+            "predicted_annotation": 0.864899745450288
+        },
+        {
+            "dialogue_id": 274,
+            "human_annotation": 4.0,
+            "predicted_annotation": 0.961237890513089
+        },
+        {
+            "dialogue_id": 275,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.7913794542657621
+        },
+        {
+            "dialogue_id": 276,
+            "human_annotation": 2.6666666666666665,
+            "predicted_annotation": 0.6714315403404371
+        },
+        {
+            "dialogue_id": 277,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.7573079551910411
+        },
+        {
+            "dialogue_id": 278,
+            "human_annotation": 2.6666666666666665,
+            "predicted_annotation": 0.786552384558808
+        },
+        {
+            "dialogue_id": 279,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.688862646651416
+        },
+        {
+            "dialogue_id": 280,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.705491556852289
+        },
+        {
+            "dialogue_id": 281,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.9016902967447461
+        },
+        {
+            "dialogue_id": 282,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.8754776062785351
+        },
+        {
+            "dialogue_id": 283,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.896678505620998
+        },
+        {
+            "dialogue_id": 284,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.78071213311327
+        },
+        {
+            "dialogue_id": 285,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.9147839748664951
+        },
+        {
+            "dialogue_id": 286,
+            "human_annotation": 2.6666666666666665,
+            "predicted_annotation": 0.759772387205449
+        },
+        {
+            "dialogue_id": 287,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.9135807981600461
+        },
+        {
+            "dialogue_id": 288,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.7728869213696941
+        },
+        {
+            "dialogue_id": 289,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.8941981020421831
+        },
+        {
+            "dialogue_id": 290,
+            "human_annotation": 4.666666666666667,
+            "predicted_annotation": 0.821514724417377
+        },
+        {
+            "dialogue_id": 291,
+            "human_annotation": 3.3333333333333335,
+            "predicted_annotation": 0.9343290998913981
+        },
+        {
+            "dialogue_id": 292,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.6658096120972771
+        },
+        {
+            "dialogue_id": 293,
+            "human_annotation": 3.6666666666666665,
+            "predicted_annotation": 0.6379621584224271
+        },
+        {
+            "dialogue_id": 294,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.650356782607554
+        },
+        {
+            "dialogue_id": 295,
+            "human_annotation": 4.333333333333333,
+            "predicted_annotation": 0.8610833243608481
+        },
+        {
+            "dialogue_id": 296,
+            "human_annotation": 3.0,
+            "predicted_annotation": 0.806152092428976
+        },
+        {
+            "dialogue_id": 297,
+            "human_annotation": 2.3333333333333335,
+            "predicted_annotation": 0.547985942458027
+        },
+        {
+            "dialogue_id": 298,
+            "human_annotation": 2.3333333333333335,
+            "predicted_annotation": 0.614649283888406
+        },
+        {
+            "dialogue_id": 299,
+            "human_annotation": 5.0,
+            "predicted_annotation": 0.8742402639836071
+        }
+    ],
+    "metrics": {
+        "pearson_correlation": 0.3005816019920991,
+        "spearman_correlation": 0.30711782117854136,
+        "kendall_tau_correlation": 0.21726974614160616
+    }
+}

@@ -6,7 +6,7 @@ from scipy.stats import pearsonr, spearmanr, kendalltau
 with open('../../../_datasets/fed_data.json', 'r') as file:
     df_human = json.load(file)
 
-df_baichuan2 = pd.read_json('llama2-13b_dialogue_ratings.json')
+df_llama2 = pd.read_json('llama2-13b_dialogue_ratings.json')
 
 # Annotations.
 human_annotations = [
@@ -15,7 +15,7 @@ human_annotations = [
     if example.get("response") is None
 ]
 
-predicted_annotations = [dialogue['yes'] for dialogue in df_baichuan2['dialogues']]
+predicted_annotations = [dialogue['yes'] for dialogue in df_llama2['dialogues']]
 
 # Metrics.
 pearson_correlation, _ = pearsonr(human_annotations, predicted_annotations)
