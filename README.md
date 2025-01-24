@@ -9,9 +9,14 @@ Project of course **Artificial Intelligence** - University of Salerno.
 
 1. [Introduction](#introduction)
 2. [Methodology](#methodology)
-3. [Experimental Results](#experimental-results)
    - [Preliminary](#preliminary)
    - [Prompt Engineering](#prompt-engineering)
+3. [Experimental Results](#experimental-results)
+   - [DSTC9 Dataset](#dstc9_dataset)
+   - [Convai2 Dataset](#dstc9_dataset)
+   - [FED dataset](#dstc9_dataset)
+   - [PC USR dataset](#dstc9_dataset)
+   - [TC USR dataset](#dstc9_dataset)
 4. [Installation Guide](#installation-guide)
    - [Installing Python](#installing-python)
    - [Cloning the Repository](#cloning-the-repository)
@@ -39,7 +44,7 @@ Both proprietary and open-source language models are evaluated:
 
 
 The evaluation is conducted at both the turn level and dialogue level, as described in the previous paper. Tests were performed on five datasets: 
-**FED Dataset**, **Convai2 Dataset**, **DSTC9 Dataset**, **PC USR Dataset**, **TC USR Dataset**.
+**DSTC9 Dataset**, **Convai2 Dataset**, **FED Dataset**, **PC USR Dataset**, **TC USR Dataset**.
 
 ### Prompt Engineering
 In order to interact effectively with the models being tested, it's essential to design prompts that clearly and unambiguously define the task and desired output. Following the approach of the previous paper, distinct prompts were used for **dialogue-level** evaluation depending on whether the model is proprietary or open-source.
@@ -100,7 +105,7 @@ Question: Is the overall quality of the response satisfactory to the context?
 ## Experimental Results
 The tables below present the benchmark results across various datasets, providing a comprehensive comparison of performance metrics.
 
-### DSTC9_Dataset
+### DSTC9 Dataset
 <table>
     <tr>
         <th colspan="4">Dialogue level</th>
@@ -158,7 +163,7 @@ The tables below present the benchmark results across various datasets, providin
     </tr>
 </table>
 
-### Convai2_Dataset
+### Convai2 Dataset
 <table>
     <tr>
         <th colspan="4">Dialogue level</th>
@@ -201,7 +206,7 @@ The tables below present the benchmark results across various datasets, providin
     </tr>
 </table>
 
-### FED_Dataset
+### FED Dataset
 <table>
     <tr>
         <th colspan="4">Dialogue level</th>
@@ -286,7 +291,7 @@ The tables below present the benchmark results across various datasets, providin
     </tr>
 </table>
 
-### TC_USR_Dataset
+### TC USR Dataset
 
 <table>
     <tr>
@@ -330,7 +335,7 @@ The tables below present the benchmark results across various datasets, providin
     </tr>
 </table>
 
-### PC_USR_Dataset
+### PC USR Dataset
 <table>
     <tr>
         <th colspan="4">Turn level</th>
