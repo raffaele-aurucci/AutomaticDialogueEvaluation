@@ -1,4 +1,4 @@
-# Automatic Dialogues Evaluation
+# Automatic Dialogue Evaluation
 
 Project of course **Artificial Intelligence** - University of Salerno.
 
