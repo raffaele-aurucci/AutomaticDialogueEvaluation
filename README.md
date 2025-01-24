@@ -98,6 +98,283 @@ Question: Is the overall quality of the response satisfactory to the context?
 ```
 
 ## Experimental Results
+The tables below present the benchmark results across various datasets, providing a comprehensive comparison of performance metrics.
+
+### DSTC9_Dataset
+<table>
+    <tr>
+        <th colspan="4">Dialogue level</th>
+    </tr>
+    <tr>
+        <th>Model</th>
+        <th>Pearson</th>
+        <th>Spearman</th>
+        <th>Kendall Tau</th>
+    </tr>
+    <tr>
+        <td>Baichuan2-13B</td>
+        <td>0.116</td>
+        <td>0.128</td>
+        <td>0.091</td>
+    </tr>
+    <tr>
+        <td>Chatglm3-6B</td>
+        <td>0.110</td>
+        <td>0.110</td>
+        <td>0.078</td>
+    </tr>
+    <tr>
+        <td>Chimera13B</td>
+        <td>0.090</td>
+        <td>0.131</td>
+        <td>0.094</td>
+    </tr>
+    <tr>
+        <td>Llama2-13B</td>
+        <td>0.051</td>
+        <td>0.052</td>
+        <td>0.037</td>
+    </tr>
+    <tr>
+        <td>Qwen14B</td>
+        <td>0.195</td>
+        <td>0.215</td>
+        <td>0.155</td>
+    </tr>
+    <tr>
+        <td>Vicuna13B</td>
+        <td><b><u>0.224</u></b></td>
+        <td><b><u>0.228</u></b></td>
+        <td><b><u>0.164</u></b></td>
+    </tr>
+    <tr>
+        <td colspan="4"></td>
+    </tr>
+    <tr>
+        <td>GPT4</td>
+        <td><b><u>0.263</u></b></td>
+        <td><b><u>0.252</u></b></td>
+        <td><b><u>0.185</u></b></td>
+    </tr>
+</table>
+
+### Convai2_Dataset
+<table>
+    <tr>
+        <th colspan="4">Dialogue level</th>
+    </tr>
+    <tr>
+        <th>Model</th>
+        <th>Pearson</th>
+        <th>Spearman</th>
+        <th>Kendall Tau</th>
+    </tr>
+    <tr>
+        <td>Baichuan2-13B</td>
+        <td><b><u>0.349</u></b></td>
+        <td><b><u>0.414</u></b></td>
+        <td><b><u>0.308</u></b></td>
+    </tr>
+    <tr>
+        <td>Chatglm3-6B</td>
+        <td>0.324</td>
+        <td>0.323</td>
+        <td>0.238</td>
+    </tr>
+    <tr>
+        <td>Llama2-13B</td>
+        <td>0.194</td>
+        <td>0.189</td>
+        <td>0.141</td>
+    </tr>
+    <tr>
+        <td>Qwen14B</td>
+        <td>0.077</td>
+        <td>0.027</td>
+        <td>0.024</td>
+    </tr>
+    <tr>
+        <td>Vicuna13B</td>
+        <td>-0.153</td>
+        <td>-0.173</td>
+        <td>-0.126</td>
+    </tr>
+</table>
+
+### FED_Dataset
+<table>
+    <tr>
+        <th colspan="4">Dialogue level</th>
+    </tr>
+    <tr>
+        <th>Model</th>
+        <th>Pearson</th>
+        <th>Spearman</th>
+        <th>Kendall Tau</th>
+    </tr>
+    <tr>
+        <td>Baichuan2-13B</td>
+        <td>0.469</td>
+        <td><b><u>0.574</u></b></td>
+        <td><b><u>0.415</u></b></td>
+    </tr>
+    <tr>
+        <td>Chatglm3-6B</td>
+        <td>0.017</td>
+        <td>-0.004</td>
+        <td>0.001</td>
+    </tr>
+    <tr>
+        <td>Llama2-13B</td>
+        <td>0.194</td>
+        <td>0.189</td>
+        <td>0.141</td>
+    </tr>
+    <tr>
+        <td>Qwen14B</td>
+        <td>0.077</td>
+        <td>0.027</td>
+        <td>0.024</td>
+    </tr>
+    <tr>
+        <td>Vicuna13B</td>
+        <td><b><u>0.537</u></b></td>
+        <td>0.517</td>
+        <td>0.354</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th colspan="4">Turn level</th>
+    </tr>
+    <tr>
+        <th>Model</th>
+        <th>Pearson</th>
+        <th>Spearman</th>
+        <th>Kendall Tau</th>
+    </tr>
+    <tr>
+        <td>Baichuan2-13B</td>
+        <td>0.416</td>
+        <td>0.357</td>
+        <td>0.251</td>
+    </tr>
+    <tr>
+        <td>Chatglm3-6B</td>
+        <td>0.385</td>
+        <td>0.300</td>
+        <td>0.210</td>
+    </tr>
+    <tr>
+        <td>Llama2-13B</td>
+        <td>0.299</td>
+        <td>0.269</td>
+        <td>0.190</td>
+    </tr>
+    <tr>
+        <td>Qwen14B</td>
+        <td>0.315</td>
+        <td>0.261</td>
+        <td>0.175</td>
+    </tr>
+    <tr>
+        <td>Vicuna13B</td>
+        <td><b><u>0.499</u></b></td>
+        <td><b><u>0.491</u></b></td>
+        <td><b><u>0.356</u></b></td>
+    </tr>
+</table>
+
+### TC_USR_Dataset
+
+<table>
+    <tr>
+        <th colspan="4">Turn level</th>
+    </tr>
+    <tr>
+        <th>Models</th>
+        <th>Pearson</th>
+        <th>Spearman</th>
+        <th>Kendall Tau</th>
+    </tr>
+    <tr>
+        <td>Baichuan2-13B</td>
+        <td>0.171</td>
+        <td>0.310</td>
+        <td>0.218</td>
+    </tr>
+    <tr>
+        <td>Chatglm3-6B</td>
+        <td>0.265</td>
+        <td>0.255</td>
+        <td>0.178</td>
+    </tr>
+    <tr>
+        <td>Llama2-13B</td>
+        <td>0.324</td>
+        <td>0.349</td>
+        <td>0.246</td>
+    </tr>
+    <tr>
+        <td>Qwen14B</td>
+        <td>0.239</td>
+        <td>0.238</td>
+        <td>0.168</td>
+    </tr>
+    <tr>
+        <td>Vicuna13B</td>
+        <td><b><u>0.352</u></b></td>
+        <td><b><u>0.384</u></b></td>
+        <td><b><u>0.271</u></b></td>
+    </tr>
+</table>
+
+### PC_USR_Dataset
+<table>
+    <tr>
+        <th colspan="4">Turn level</th>
+    </tr>
+    <tr>
+        <th>Models</th>
+        <th>Pearson</th>
+        <th>Spearman</th>
+        <th>Kendall Tau</th>
+    </tr>
+    <tr>
+        <td>Baichuan2-13B</td>
+        <td>0.341</td>
+        <td><b><u>0.391</u></b></td>
+        <td><b><u>0.286</u></b></td>
+    </tr>
+    <tr>
+        <td>Chatglm3-6B</td>
+        <td><b><u>0.404</u></b></td>
+        <td>0.364</td>
+        <td>0.254</td>
+    </tr>
+    <tr>
+        <td>Llama2-13B</td>
+        <td>0.349</td>
+        <td>0.342</td>
+        <td>0.244</td>
+    </tr>
+    <tr>
+        <td>Qwen14B</td>
+        <td>0.291</td>
+        <td>0.281</td>
+        <td>0.202</td>
+    </tr>
+    <tr>
+        <td>Vicuna13B</td>
+        <td>0.300</td>
+        <td>0.307</td>
+        <td>0.217</td>
+    </tr>
+</table>
+
+
+
 
 ## Installation Guide
 To install the necessary requirements for the project, please follow the steps below.
